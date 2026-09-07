@@ -38,7 +38,7 @@ call :house_pages_1
 :house_pages_1
 cls
 echo !shii! (page 1)
-echo you have !house_global_bal! CollabCOINS
+echo you have $!house_global_bal!
 echo 1 - blackjack
 echo 2 - russian roulette
 echo 3 - high or low
@@ -82,7 +82,7 @@ if !house_var_choice! equ 1 (
 :house_pages_2
 cls
 echo !shii! (page 2)
-echo you have !house_global_bal! CollabCOINS
+echo you have $!house_global_bal!
 echo 1 - test game thingy
 echo 2 - update logs
 echo 99 - previous page
@@ -326,7 +326,7 @@ goto house_games_win
 :house_misc_shop
 cls
 echo welcome to !logo! shop! here you will find everything you need
-echo you have !house_global_bal! CollabCOINS.
+echo you have $!house_global_bal!.
 echo 1 -- get-out-of-the-p.a.c.t-card - $30000
 echo 2 -- sold-out
 echo 3 -- crash-card (take a wild guess) - $2500
